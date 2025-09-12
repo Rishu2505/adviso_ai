@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "title": "Abstract Color Waves",
+    "image": "https://images.pexels.com/photos/2832382/pexels-photo-2832382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Trending"
+  },
+  {
+    "id": "2",
+    "title": "Neon Light Tunnel",
+    "image": "https://images.pexels.com/photos/2291475/pexels-photo-2291475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Most Viewed"
+  },
+  {
+    "id": "3",
+    "title": "Geometric Shapes Collage",
+    "image": "https://images.pexels.com/photos/3707998/pexels-photo-3707998.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Newest"
+  },
+  {
+    "id": "4",
+    "title": "Blue Smoke Abstract",
+    "image": "https://images.pexels.com/photos/2379429/pexels-photo-2379429.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Oldest"
+  },
+  {
+    "id": "5",
+    "title": "Gradient Flow Pattern",
+    "image": "https://images.pexels.com/photos/3560044/pexels-photo-3560044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Recommended"
+  },
+  {
+    "id": "6",
+    "title": "Neon Wall Lights",
+    "image": "https://images.pexels.com/photos/2740955/pexels-photo-2740955.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Popular"
+  },
+  {
+    "id": "7",
+    "title": "Fluid Paint Texture",
+    "image": "https://images.pexels.com/photos/2832381/pexels-photo-2832381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "For You"
+  },
+  {
+    "id": "8",
+    "title": "Futuristic Grid Glow",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Trending"
+  },
+  {
+    "id": "9",
+    "title": "Abstract Light Trails",
+    "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Most Viewed"
+  },
+  {
+    "id": "10",
+    "title": "Cosmic Paint Splash",
+    "image": "https://images.pexels.com/photos/2113566/pexels-photo-2113566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Newest"
+  },
+  {
+    "id": "11",
+    "title": "Soft Pastel Blur",
+    "image": "https://images.pexels.com/photos/268947/pexels-photo-268947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Oldest"
+  },
+  {
+    "id": "12",
+    "title": "Dynamic Neon Lines",
+    "image": "https://images.pexels.com/photos/3785931/pexels-photo-3785931.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Recommended"
+  },
+  {
+    "id": "13",
+    "title": "Abstract Ink Swirls",
+    "image": "https://images.pexels.com/photos/2113566/pexels-photo-2113566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Popular"
+  },
+  {
+    "id": "14",
+    "title": "Golden Particle Wave",
+    "image": "https://images.pexels.com/photos/3016149/pexels-photo-3016149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "For You"
+  },
+  {
+    "id": "15",
+    "title": "Minimalist Paper Cutout",
+    "image": "https://images.pexels.com/photos/3689841/pexels-photo-3689841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Trending"
+  },
+  {
+    "id": "16",
+    "title": "Aurora Borealis Flow",
+    "image": "https://images.pexels.com/photos/258731/pexels-photo-258731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Most Viewed"
+  },
+  {
+    "id": "17",
+    "title": "Retro Neon Glow",
+    "image": "https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Newest"
+  },
+  {
+    "id": "18",
+    "title": "Vivid Oil Mix",
+    "image": "https://images.pexels.com/photos/2832380/pexels-photo-2832380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Oldest"
+  },
+  {
+    "id": "19",
+    "title": "Glowing Polygon Shapes",
+    "image": "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Recommended"
+  },
+  {
+    "id": "20",
+    "title": "Digital Light Burst",
+    "image": "https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+    "category": "Popular"
+  }
+]

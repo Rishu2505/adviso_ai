@@ -1,0 +1,222 @@
+[
+  {
+    "id": "1",
+    "user": {
+      "name": "Jane Cooper",
+      "avatar": "https://randomuser.me/api/portraits/women/45.jpg"
+    },
+    "posted_in": "Travel Diaries",
+    "time": "1h ago",
+    "text": "Exploring Patagonia's peaks was surreal 🏔️ — the wind was fierce, the trails endless, but the view from the top made every step worthwhile. Nature at its rawest form always humbles me.",
+    "image": "https://images.pexels.com/photos/142497/pexels-photo-142497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "2",
+    "user": {
+      "name": "Kristin Watson",
+      "avatar": "https://randomuser.me/api/portraits/women/65.jpg"
+    },
+    "posted_in": "Global Wanderers",
+    "time": "2h ago",
+    "text": "Evenings in Santorini are pure magic 🌅 — the sky painted in shades of orange and pink, waves gently crashing, and the aroma of fresh seafood filling the air. Truly a dream destination.",
+    "image": "https://images.pexels.com/photos/739407/pexels-photo-739407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "3",
+    "user": {
+      "name": "Devon Lane",
+      "avatar": "https://randomuser.me/api/portraits/men/21.jpg"
+    },
+    "posted_in": "Gamers United",
+    "time": "3h ago",
+    "text": "Immersed in VR gaming worlds 🎮 — it feels unreal how technology can transport us into another universe where imagination is the only limit. Can’t wait to see what’s next for VR!",
+    "image": "https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "4",
+    "user": {
+      "name": "Eleanor Pena",
+      "avatar": "https://randomuser.me/api/portraits/women/32.jpg"
+    },
+    "posted_in": "Tech Talks",
+    "time": "5h ago",
+    "text": "AI assistants simplify my daily tasks 🤖 — from scheduling meetings to writing notes, they’ve become an essential part of my workflow. Excited to see how AI evolves further.",
+    "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "5",
+    "user": {
+      "name": "Courtney Henry",
+      "avatar": "https://randomuser.me/api/portraits/women/72.jpg"
+    },
+    "posted_in": "Sunset Chasers",
+    "time": "6h ago",
+    "text": "Sunsets remind us of fresh beginnings 🌇 — watching the sun dip below the horizon with colors that no camera can truly capture. Nature’s way of saying ‘pause and breathe.’",
+    "image": "https://images.pexels.com/photos/462118/pexels-photo-462118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "6",
+    "user": {
+      "name": "Jacob Jones",
+      "avatar": "https://randomuser.me/api/portraits/men/42.jpg"
+    },
+    "posted_in": "Urban Life",
+    "time": "7h ago",
+    "text": "Skyscrapers touching the stars 🌃 — walking through the city at night, I’m always amazed by how alive everything feels. The lights, the sounds, the people — pure energy everywhere.",
+    "image": "https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "7",
+    "user": {
+      "name": "Albert Flores",
+      "avatar": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    "posted_in": "Photo Creators",
+    "time": "9h ago",
+    "text": "Capturing cityscapes 📸 — every shot tells a story of culture, movement, and architecture blending together. Photography makes me notice details I’d otherwise overlook.",
+    "image": "https://images.pexels.com/photos/196666/pexels-photo-196666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "8",
+    "user": {
+      "name": "Theresa Webb",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    "posted_in": "Minimal Living",
+    "time": "10h ago",
+    "text": "Minimalism inspires clarity 🖼️ — decluttering my space has also decluttered my mind. I feel lighter, more focused, and inspired to live with only what I truly need.",
+    "image": "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "9",
+    "user": {
+      "name": "Cameron Williamson",
+      "avatar": "https://randomuser.me/api/portraits/men/41.jpg"
+    },
+    "posted_in": "Nature Explorers",
+    "time": "12h ago",
+    "text": "Lost in the forest trails 🌲 — the sound of rustling leaves, the crunch under my boots, and the fresh air are the best therapy I could ask for. Nothing beats nature walks.",
+    "image": "https://images.pexels.com/photos/142497/pexels-photo-142497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "10",
+    "user": {
+      "name": "Bessie Cooper",
+      "avatar": "https://randomuser.me/api/portraits/women/81.jpg"
+    },
+    "posted_in": "Ocean Lovers",
+    "time": "14h ago",
+    "text": "Ocean vibes bring peace 🌊 — standing by the shore, listening to the waves, and feeling the salty breeze is my ultimate reset button.",
+    "image": "https://images.pexels.com/photos/268628/pexels-photo-268628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "11",
+    "user": {
+      "name": "Darlene Robertson",
+      "avatar": "https://randomuser.me/api/portraits/women/33.jpg"
+    },
+    "posted_in": "Code Cafe",
+    "time": "16h ago",
+    "text": "Coffee coding nights ☕💻 — there’s nothing better than writing code while sipping a strong cup of coffee. Late-night sessions often spark my best ideas.",
+    "image": "https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "12",
+    "user": {
+      "name": "Ralph Edwards",
+      "avatar": "https://randomuser.me/api/portraits/men/56.jpg"
+    },
+    "posted_in": "Space Enthusiasts",
+    "time": "18h ago",
+    "text": "Space inspires infinite thoughts 🌌 — staring at galaxies millions of light-years away makes me realize how small yet significant we are in this vast universe.",
+    "image": "https://images.pexels.com/photos/1257860/pexels-photo-1257860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "13",
+    "user": {
+      "name": "Leslie Alexander",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    "posted_in": "Bookworms",
+    "time": "20h ago",
+    "text": "Books, coffee, and cozy vibes 📚 — curling up with a good book on a rainy day is pure happiness. Every page feels like stepping into a new world.",
+    "image": "https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "14",
+    "user": {
+      "name": "Guy Hawkins",
+      "avatar": "https://randomuser.me/api/portraits/men/77.jpg"
+    },
+    "posted_in": "Cycling Crew",
+    "time": "21h ago",
+    "text": "Cycling boosts my energy 🚴‍♂️ — whether it’s uphill battles or fast downhill rides, cycling clears my mind and strengthens my body.",
+    "image": "https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "15",
+    "user": {
+      "name": "Jenny Wilson",
+      "avatar": "https://randomuser.me/api/portraits/women/19.jpg"
+    },
+    "posted_in": "City Wanderers",
+    "time": "1d ago",
+    "text": "Evening walks calm the soul 🌆 — watching the city lights flicker on as the sky darkens is one of my favorite ways to unwind.",
+    "image": "https://images.pexels.com/photos/739407/pexels-photo-739407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "16",
+    "user": {
+      "name": "Marvin McKinney",
+      "avatar": "https://randomuser.me/api/portraits/men/91.jpg"
+    },
+    "posted_in": "Drone Pilots",
+    "time": "1d ago",
+    "text": "Testing my drone camera 🚁 — flying above the trees, capturing aerial shots, and seeing the world from a new perspective is absolutely thrilling.",
+    "image": "https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "17",
+    "user": {
+      "name": "Annette Black",
+      "avatar": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    "posted_in": "Foodies",
+    "time": "2d ago",
+    "text": "Baking day, my kitchen smells amazing 🥐 — nothing compares to the joy of making something from scratch and sharing it with loved ones.",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "18",
+    "user": {
+      "name": "Floyd Miles",
+      "avatar": "https://randomuser.me/api/portraits/men/14.jpg"
+    },
+    "posted_in": "Street Artists",
+    "time": "2d ago",
+    "text": "Street art inspires me 🎨 — every wall tells a different story, and I love capturing the vibrant energy of the city through colors and patterns.",
+    "image": "https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "19",
+    "user": {
+      "name": "Arlene McCoy",
+      "avatar": "https://randomuser.me/api/portraits/women/28.jpg"
+    },
+    "posted_in": "Creative Minds",
+    "time": "2d ago",
+    "text": "Trying my hand at watercolors 🎨 — mixing shades and watching them flow across the canvas is therapeutic, even if the result isn’t perfect.",
+    "image": "https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  },
+  {
+    "id": "20",
+    "user": {
+      "name": "Wade Warren",
+      "avatar": "https://randomuser.me/api/portraits/men/38.jpg"
+    },
+    "posted_in": "Stargazers",
+    "time": "3d ago",
+    "text": "Night sky full of stars 🌌 — I could sit for hours just watching the constellations appear one by one, the Milky Way stretching endlessly across the horizon.",
+    "image": "https://images.pexels.com/photos/1257860/pexels-photo-1257860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+  }
+]
