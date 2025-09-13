@@ -16,6 +16,6 @@ make_gif () {
 echo "🎬 Generating GIFs..."
 
 # Example cuts
-make_gif 00:00:03 00:00:22 home   # Custom: from 1:58 → 2:30
+make_gif 00:00:24 00:01:21 chat   # Custom: from 1:58 → 2:30
 
 echo "✅ GIFs created in $OUTDIR"

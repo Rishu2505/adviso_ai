@@ -1,8 +1,22 @@
-# 🤖 Adviso AI – AI Product Advisor & Chat App
+# 🤖 Adviso AI – Product Advisor with AI-Powered Chat
 
 AdvisoAI is a **React Native (Expo)** application that helps users discover the best products using **AI-powered recommendations** and also provides a **real-time chat interface** with OpenAI, similar to ChatGPT.  
 
-It demonstrates **senior-level mobile engineering practices** with modular architecture, polished UI/UX, and production-ready patterns.
+It demonstrates **architectural-level mobile engineering expertise**, delivering scalable systems, production-grade patterns, and a polished UI/UX designed with long-term evolution in mind.
+
+---
+
+## 📸 YouTube
+
+[▶️ Video](https://youtu.be/pUrr-Xig9Ac)
+
+---
+
+## 📸 Screenshots & Demo
+
+| Splash | Home | Adviso AI | Profile | Chat | Animated Bottom Tabs |
+|--------|------|-----------|---------|------|----------------------|
+| ![Splash](./src/assets/screenshots/splash.gif) | ![Home](./src/assets/screenshots/home.gif) | ![Adviso AI](./src/assets/screenshots/adviso-ai.gif) | ![Profile](./src/assets/screenshots/profile.gif) | ![Chat](./src/assets/screenshots/chat.gif) | ![Bottom Tabs](./src/assets/screenshots/animated-bottom-tab.gif) |
 
 ---
 
@@ -117,17 +131,6 @@ Open on device with **Expo Go** or run on simulator.
 2. Profile picture & name appear at the top → Instantly personalizing the page.
 3. Auto-scroll begins → Long introduction text flows smoothly without user effort.
 4. Typing animation plays → Text appears as if being typed in real time, keeping it engaging.
-
----
-
-## 📸 Screenshots & Demo
-
-| Splash | Home | Adviso AI | Profile | Chat |
-|--------|------|-----------|---------|------|
-| ![Splash](./src/assets/screenshots/splash.gif) | ![Home](./src/assets/screenshots/home.gif) | ![Adviso AI](./src/assets/screenshots/adviso-ai.gif) | ![Profile](./src/assets/screenshots/profile.gif) | ![Chat](./src/assets/screenshots/chat.gif) |
-
-### ⚡ Animated Bottom Tabs
-![Bottom Tabs](./src/assets/screenshots/animated-bottom-tab.gif)
 
 ---
 
