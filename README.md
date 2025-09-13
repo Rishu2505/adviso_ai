@@ -16,7 +16,7 @@ It demonstrates **architectural-level mobile engineering expertise**, delivering
 
 | Splash | Home | Adviso AI | Profile | Chat | Animated Bottom Tabs |
 |--------|------|-----------|---------|------|----------------------|
-| ![Splash](./src/assets/screenshots/splash.gif) | ![Home](./src/assets/screenshots/home.gif) | ![Adviso AI](./src/assets/screenshots/adviso-ai.gif) | ![Profile](./src/assets/screenshots/profile.gif) | ![Chat](./src/assets/screenshots/chat.gif) | ![Bottom Tabs](./src/assets/screenshots/animated-bottom-tab.gif) |
+| <img src="./src/assets/screenshots/splash.gif" width="200"/> | <img src="./src/assets/screenshots/home.gif" width="200"/> | <img src="./src/assets/screenshots/adviso-ai.gif" width="200"/> | <img src="./src/assets/screenshots/profile.gif" width="200"/> | <img src="./src/assets/screenshots/chat.gif" width="200"/> | <img src="./src/assets/screenshots/animated-bottom-tab.gif" width="200"/> |
 
 ---
 
