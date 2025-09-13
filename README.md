@@ -91,9 +91,17 @@ npm install
 ```
 
 ### Configure Environment
-Create a `.env` file in project root:
+1. In the project root, create a `.env` file (if it doesn’t already exist).  
+2. Add your OPENAI_API_KEY inside it:
 ```
-EXPO_PUBLIC_OPENAI_KEY=your_openai_api_key
+# OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+```
+3. In the project root, open app.json file.  
+2. Add your OPENAI_API_KEY inside extra:
+```
+"extra": {
+       "OPENAI_API_KEY": "YOUR_OPENAI_API_KEY"
+    }
 ```
 
 ### Run the App
@@ -184,5 +192,5 @@ Just raw JSON as defined.
 
 ## 👨‍💻 Author
 
-Developed by **Mukesh Kumar (Rishu)** – Senior React Native Engineer  
+Developed by [💻 Mukesh Kumar (Rishu)](https://github.com/Rishu2505) – Senior React Native Engineer  
 Software Development Engineer with 9+ years of experience in building **mobile apps** (React Native, Expo, Android, iOS, JavaScript, TypeScript, AI). I design and deliver scalable, high-performance mobile applications across HealthTech, EdTech, Charity, E-Commerce, and Social Platforms — guiding projects from concept to App Store / Play Store launch.
