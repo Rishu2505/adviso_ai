@@ -1,4 +1,5 @@
-# 🧠 AI Conversation Log – AdvisoAI [▶️ Youtube](https://youtu.be/pUrr-Xig9Ac)
+# 🧠 AI Conversation Log – AdvisoAI  [▶️ YouTube](https://youtu.be/pUrr-Xig9Ac) | [💻 GitHub](https://github.com/Rishu2505/adviso_ai)
+
 
 This document highlights how I collaborated with AI (ChatGPT) during the development of the **AdvisoAI** project. While AI assisted with ideation, faster prototyping, and debugging, the overall **architecture, file structure, and implementation** were entirely driven by my own expertise and experience gained over years of building scalable mobile apps.  
 
@@ -8,7 +9,8 @@ I intentionally chose **not to use Snack Expo(snack.expo.dev.)**, as it restrict
 
 This log only documents the **prompts and functional guidance** I used AI for—everything else, from animated bottom tabs to navigation flows, was built by hand. Using AI helped me accelerate repetitive or time-consuming tasks, but the end product is the result of deliberate design, architectural choices, and careful execution.  
 
-If you’ve enjoyed reviewing my work, I’d love to connect further. Please feel free to reach out via **LinkedIn, Gmail, or WhatsApp** (all details are in my portfolio). I’m confident you’ll appreciate the level of thought and craft that has gone into AdvisoAI.  
+If you’ve enjoyed reviewing my work, I’d love to connect further. Please feel free to reach out via **LinkedIn, Gmail, or WhatsApp** (all details are in my portfolio). I’m confident you’ll appreciate the level of thought and craft that has gone into AdvisoAI [▶️ YouTube](https://youtu.be/pUrr-Xig9Ac) | [💻 GitHub](https://github.com/Rishu2505/adviso_ai)
+.  
 
 ---
 
