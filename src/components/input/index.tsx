@@ -1,14 +1,16 @@
 import { useHaptics } from '@/src/hooks';
 import { useTheme } from '@/src/hooks/useTheme';
-import { m } from '@/src/utils/metrics';
+import { truncateWithEllipsis } from '@/src/utils/helper';
+import { m, v } from '@/src/utils/metrics';
 import { Feather, FontAwesome5, Octicons } from '@expo/vector-icons';
 import { BlurView } from 'expo-blur';
 import { debounce } from "lodash";
 import React, { useEffect, useState } from 'react';
-import { Keyboard, TextInput, TouchableOpacity, View } from 'react-native';
+import { Keyboard, Platform, TextInput, TouchableOpacity, View } from 'react-native';
 import Animated, {
     FadeInDown, ZoomIn
 } from 'react-native-reanimated';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { strings } from './constants';
 import { useThemedStyles } from './styles';
 
@@ -22,6 +24,7 @@ interface InputProps {
 }
 
 const Input: React.FC<InputProps> = ({ value = '', placeHolder = strings.placeHolder, isAdvisoUI = false, isChatUI = false, onEnter, fontSize = m(16) }) => {
+    const { bottom } = useSafeAreaInsets();
     const styles = useThemedStyles();
     const colors = useTheme();
     const [text, setText] = useState(value);
@@ -34,7 +37,10 @@ const Input: React.FC<InputProps> = ({ value = '', placeHolder = strings.placeHo
         if (!isAdvisoUI) {
             return
         }
-        const textToAnimate = value || placeHolder;
+        const textToAnimate =
+            Platform.OS === 'android'
+                ? truncateWithEllipsis(value || placeHolder, 30)
+                : value || placeHolder;
         setText("")
         setVisibleText("");
         let currentIndex = 0;
@@ -99,7 +105,7 @@ const Input: React.FC<InputProps> = ({ value = '', placeHolder = strings.placeHo
     };
 
     return (
-        <View style={[styles.wrapper]}>
+        <View style={[styles.wrapper, { paddingBottom: Platform.OS === "android" ? isChatUI ? bottom + v(10) : 0 : 0, }]}>
             <Animated.View
                 entering={FadeInDown.duration(300)} style={[styles.container]}>
                 <BlurView intensity={40} tint='extraLight' style={styles.blur}>
@@ -114,7 +120,6 @@ const Input: React.FC<InputProps> = ({ value = '', placeHolder = strings.placeHo
                         returnKeyType="send"
                         onFocus={handleFocus}
                         onBlur={handleBlur}
-                    //multiline
                     />
                     {isChatUI &&
                         <TouchableOpacity

@@ -27,7 +27,7 @@ const RecommendationCard: React.FC<RecommendationCardProps> = ({ item, index, on
             <Pressable
                 style={styles.card}
                 onPress={() => onPress?.(item.product.product_name)}>
-                <BlurView intensity={50} tint="extraLight" style={styles.blurContainer}>
+                <BlurView  intensity={50} tint="extraLight" style={styles.blurContainer}>
                     <View style={styles.headerRow}>
                         <View style={styles.fullFlex}>
                             <Text style={styles.userName}>{item.product.product_name}</Text>

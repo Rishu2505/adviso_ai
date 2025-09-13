@@ -51,7 +51,7 @@ const ScreenHeader: React.FC<ScreenHeaderProps> = ({
 
       {showLeftIcon && (
         <Pressable onPress={onLeftPress} hitSlop={HIT_SLOP.small}>
-          <BlurView intensity={50} tint="extraLight" style={styles.leftIconContainer}>
+          <BlurView  intensity={50} tint="extraLight" style={styles.leftIconContainer}>
             <Feather name={leftIconName} size={m(22)} color={styles.icon.color} />
           </BlurView>
         </Pressable>
@@ -73,19 +73,19 @@ const ScreenHeader: React.FC<ScreenHeaderProps> = ({
       <View style={styles.rightRow}>
         {showRightIcon ? (
           <Pressable onPress={onRightPress} hitSlop={HIT_SLOP.small} style={{ marginRight: showUserImage && userImage ? h(12) : 0 }}>
-            <BlurView intensity={50} tint="extraLight" style={styles.rightIconContainer}>
+            <BlurView  intensity={50} tint="extraLight" style={styles.rightIconContainer}>
               <Feather name={rightIconName} size={m(22)} color={styles.icon.color} />
             </BlurView>
           </Pressable>
         )
           :
           <View style={{ marginRight: showUserImage && userImage ? h(12) : 0 }}>
-            <BlurView intensity={50} tint="extraLight" style={[styles.rightIconContainer,{opacity:0}]}></BlurView>
+            <BlurView  intensity={50} tint="extraLight" style={[styles.rightIconContainer,{opacity:0}]}></BlurView>
           </View>
         }
         {showUserImage && userImage && (
           <Pressable onPress={onUserPress}>
-            <BlurView intensity={50} tint="extraLight" style={styles.userImageContainer}>
+            <BlurView  intensity={50} tint="extraLight" style={styles.userImageContainer}>
               <Image source={{ uri: userImage }} style={styles.userImage} />
             </BlurView>
           </Pressable>

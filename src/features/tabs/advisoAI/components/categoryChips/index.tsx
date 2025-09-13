@@ -40,7 +40,7 @@ const CategoryChips: React.FC<CategoryChipsProps> = ({ index, label, isActive, o
                         selection()
                         onPress?.();
                     }}>
-                    <BlurView style={styles.blurredView} intensity={50} tint='extraLight'>
+                    <BlurView  style={styles.blurredView} intensity={50} tint='extraLight'>
                         <View style={styles.contentRow}>
                             <Text style={[styles.label]}>{label}</Text>
                         </View>

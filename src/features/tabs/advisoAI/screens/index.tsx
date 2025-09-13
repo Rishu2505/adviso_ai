@@ -15,7 +15,7 @@ import { ImageBackground } from "expo-image";
 import { router } from "expo-router";
 import LottieView from "lottie-react-native";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { FlatList, Keyboard, View } from "react-native";
+import { FlatList, Keyboard, Platform, View } from "react-native";
 import Animated, { FadeIn, FadeOut, LinearTransition, ZoomIn } from "react-native-reanimated";
 import { TypingDots } from "../../home/components";
 import { CategoryChips, ListHeader, PromptCard, RecommendationCard } from "../components";
@@ -101,7 +101,7 @@ export function AdvisoAI() {
 
   const inputUI = () => {
     return (
-      <Input fontSize={m(12)} value={prompt} onEnter={handleEnter} isAdvisoUI placeHolder={strings.search.placeholder} />
+      <Input fontSize={Platform.OS === 'android' ? m(12) : m(12)} value={prompt} onEnter={handleEnter} isAdvisoUI placeHolder={strings.search.placeholder} />
     )
   }
 
@@ -146,7 +146,7 @@ export function AdvisoAI() {
       loading &&
       <Animated.View entering={FadeIn.duration(600)} exiting={FadeOut.duration(200)} style={styles.lottieContainer}>
         <LottieView
-          source={ANIMATIONS.AI_ANIMATION}
+          source={Platform.OS === "android" ? ANIMATIONS.LOADING_ANIME : ANIMATIONS.AI_ANIMATION}
           autoPlay
           loop
           style={styles.lottie}
@@ -249,11 +249,21 @@ export function AdvisoAI() {
   const welcomeMessageContainerUI = () => {
     return (
       <Animated.View entering={ZoomIn.duration(800).springify().damping(12).stiffness(90)} style={styles.welcomeContentContainer}>
-        <Animated.Text style={styles.welcomeText}>{strings.hello}
-          <Animated.Text style={styles.welcomeTextBold}>{"Mukesh"}
+        <Animated.View style={styles.welcomeAnimationContainer}>
+          <LottieView
+            source={ANIMATIONS.WELCOME}
+            autoPlay
+            style={styles.lottieWelcome}
+          />
+
+        </Animated.View>
+        <Animated.Text style={styles.welcomeText}>
+          {/* <Animated.Text style={styles.welcomeTextBold}>{strings.hello}
+          <Animated.Text>{"Mukesh"}
           </Animated.Text>
-          <Animated.Text style={styles.welcomeText}>{","}
+          <Animated.Text>{","}
           </Animated.Text>
+          </Animated.Text> */}
           <Animated.Text style={styles.welcomeText}>{strings.welcomeContent}
           </Animated.Text>
         </Animated.Text>
@@ -340,7 +350,7 @@ export function AdvisoAI() {
         />
         {loading &&
           <Animated.View entering={FadeIn.duration(600)} exiting={FadeOut.duration(200)} style={styles.predefinedPromptsAnimeContainerUI}>
-            <BlurView intensity={10} tint="light" style={styles.predefinedPromptsBlurContainerUI}>
+            <BlurView experimentalBlurMethod="dimezisBlurView" intensity={10} tint="light" style={styles.predefinedPromptsBlurContainerUI}>
             </BlurView>
           </Animated.View>
         }

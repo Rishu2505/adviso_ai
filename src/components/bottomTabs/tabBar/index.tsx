@@ -41,7 +41,7 @@ export default function TabBar({ state, descriptors, navigation, tabItems }: Tab
 
   return (
     <Animated.View style={[animatedStyle]}>
-      <BlurView intensity={10} tint="light" style={styles.tabBar} >
+      <BlurView  intensity={10} tint="light" style={styles.tabBar} >
         {state.routes.map((route: any, index: number) => {
           const isFocused = state.index === index;
           const onPress = () => {

@@ -29,7 +29,7 @@ const PromptCard: React.FC<PromptCardProps> = ({ index, item, onPress, onPressAr
         selection()
         onPress?.();
       }} style={styles.card}>
-        <BlurView style={styles.blurBG} intensity={50} tint='light'>
+        <BlurView  style={styles.blurBG} intensity={50} tint='light'>
           <FontAwesome5 name={'brain'} size={m(30)} color={colors.appSecondary} />
           <Text numberOfLines={2} style={styles.title}>{item.product_name}</Text>
           <Text numberOfLines={3} style={styles.desc}>{item.prompt}</Text>

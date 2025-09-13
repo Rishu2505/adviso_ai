@@ -15,12 +15,13 @@ export const useThemedStyles = () => {
       borderRadius: m(100),
       borderColor: colors.appWhite,
       borderWidth: v(1.2),
-      overflow:'hidden',
-      alignItems:'center'
+      overflow: "hidden",
+      alignItems: "center",
+     
     },
     blur: {
       flex: 1,
-      width:'100%',
+      width: "100%",
       flexDirection: "row",
       paddingLeft: h(12),
       paddingRight: h(14),

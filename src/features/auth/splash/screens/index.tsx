@@ -22,7 +22,7 @@ export function Splash() {
     <View style={styles.mainContainer}>
       <ImageBackground source={IMAGES.BG} contentFit='cover' style={styles.mainView}>
         <Animated.View entering={ZoomInDown.duration(2000).springify().damping(12).stiffness(90)} style={styles.splashView}>
-          <BlurView intensity={10} tint="light">
+          <BlurView  intensity={10} tint="light">
             <Animated.Image source={IMAGES.LOGO} resizeMode='contain' style={styles.splash} />
             <Animated.Text style={styles.appName}>{strings.name}</Animated.Text>
           </BlurView>

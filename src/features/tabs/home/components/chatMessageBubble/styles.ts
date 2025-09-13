@@ -36,11 +36,6 @@ export const useThemedStyles = () => {
       borderTopLeftRadius: m(10),
       borderTopRightRadius: m(10),
       borderBottomLeftRadius: m(10),
-      shadowColor: colors.appBlack,
-      shadowOpacity: 0.05,
-      shadowOffset: { width: v(0), height: v(5) },
-      shadowRadius: m(10),
-      elevation: v(5),
       overflow:'hidden'
     },
     blurredAIContainer: {

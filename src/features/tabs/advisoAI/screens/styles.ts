@@ -11,19 +11,30 @@ export const useThemedStyles = () => {
       flex: 1,
       backgroundColor: colors.background,
     },
+    welcomeAnimationContainer: {
+      flexDirection: "row",
+      justifyContent: "center",
+      alignItems: "center",
+    },
     welcomeContentContainer: {
       marginTop: v(50),
       marginBottom: v(10),
     },
     welcomeText: {
       fontSize: m(20),
-      fontFamily: fonts.SpaceMonoRegular,
+      fontFamily: fonts.PoppinsRegular,
       color: colors.appBlack,
       textAlign: "center",
-      marginTop: v(0),
+      marginTop: v(-25),
     },
     welcomeTextBold: {
+      fontSize: m(20),
+      color: colors.appBlack,
+      textAlign: "center",
+      marginLeft: h(5),
       fontFamily: fonts.PoppinsSemiBold,
+      alignSelf: "flex-end",
+      marginBottom: v(-2),
     },
     blurContainer: {
       height: v(0),
@@ -51,6 +62,7 @@ export const useThemedStyles = () => {
       top: v(300),
       bottom: 0,
     },
+    lottieWelcome: { width: h(140), height: v(50) },
     lottie: { width: h(120), height: v(120) },
     lottieText: {
       fontSize: m(14),
@@ -65,6 +77,7 @@ export const useThemedStyles = () => {
     predefinedPromptsAnimeContainerUI: {
       height: "100%",
       width: "100%",
+      marginTop: v(-10),
       position: "absolute",
     },
     predefinedPromptsBlurContainerUI: {
